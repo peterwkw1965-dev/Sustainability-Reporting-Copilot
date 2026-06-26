@@ -43,6 +43,18 @@ TPC_DEFAULTS = {
         "decarbonization strategy includes biofuels, energy efficiency technologies, alternative fuels, "
         "voyage optimization, and operational improvements."
     ),
+    "net_zero_commitment": "Planned for 2025",
+    "scope_1_2_baseline": "2025",
+    "scope_3_baseline_expansion": "2026",
+    "sbti_alignment": "Under development",
+    "shipping_levers": [
+        "biofuels",
+        "voyage optimization",
+        "energy efficiency technologies",
+        "alternative fuels",
+        "fleet modernization",
+        "operational improvements",
+    ],
 }
 
 
@@ -66,6 +78,8 @@ FRAMEWORKS = [
     "SASB",
     "TCFD",
     "UN Global Compact",
+    "CDP placeholder",
+    "ACRA Climate Reporting placeholder",
     "IMO decarbonization requirements",
     "EU ETS",
     "FuelEU Maritime",

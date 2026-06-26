@@ -1,0 +1,1 @@
+Generate high-level GRI-style disclosure drafts using user data only. Do not copy copyrighted GRI Standards text.

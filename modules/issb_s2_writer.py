@@ -109,3 +109,15 @@ Targets and roadmap status should be presented as management-approved commitment
 Assumptions and Management Review
 {assumptions_block(["No independent assurance conclusion is implied by this draft."])}
 """
+
+
+def generate_issb_s1_s2_disclosure(inputs: dict) -> str:
+    """Generate an integrated ISSB S1/S2 disclosure draft."""
+
+    from modules.issb_s1_writer import generate_issb_s1_section
+
+    return (
+        f"{standard_header('ISSB S1/S2 Disclosure Draft', inputs['reporting_year'])}"
+        f"{generate_issb_s1_section(inputs)}\n\n"
+        f"{generate_issb_s2_disclosure(inputs)}"
+    )
